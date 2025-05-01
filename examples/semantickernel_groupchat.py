@@ -24,7 +24,7 @@ from semantic_kernel.connectors.ai.open_ai import OpenAIChatCompletion
 from semantic_kernel.contents import ChatHistoryTruncationReducer
 from semantic_kernel.functions import KernelFunctionFromPrompt
 
-# Define agent names
+
 REVIEWER_NAME = "Reviewer"
 WRITER_NAME = "Writer"
 
