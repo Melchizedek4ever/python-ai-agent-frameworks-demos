@@ -1,171 +1,64 @@
-<!--
----
-name: Python AI Agent Frameworks Demos
-description: Collection of Python examples for popular AI agent frameworks using GitHub Models or Azure OpenAI.
-languages:
-- python
-products:
-- azure-openai
-- azure
-page_type: sample
-urlFragment: python-ai-agent-frameworks-demos
----
--->
-# Python AI Agent Frameworks Demos
+This Agent hackathon entry is an advanced agent group chat that utilizes 
+SEO, SEM, CSR, and SDR Chat Completion Agents to collaborate on the core aspects of digital marketing that any business would need to succeed today.
 
-[![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=brightgreen&logo=github)](https://codespaces.new/Azure-Samples/python-ai-agent-frameworks-demos)
-[![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Azure-Samples/python-ai-agent-frameworks-demos)
+Just a few years ago, you would need an entire team of people and a huge budget to perform all the different tasks that these agents can perform.
+Now all you need is a team of one. 
 
-This repository provides examples of many popular Python AI agent frameworks using LLMs from [GitHub Models](https://github.com/marketplace/models). Those models are free to use for anyone with a GitHub account, up to a [daily rate limit](https://docs.github.com/github-models/prototyping-with-ai-models#rate-limits).
+The SEO agent performs Search Engine Optimization Tasks.
+The SEM agent performs Search Engine Marketing Tasks.
+The CSR agent is a Customer Sales Representative.
+The SDR agent is a Sales Development Representative.
 
-* [Getting started](#getting-started)
-  * [GitHub Codespaces](#github-codespaces)
-  * [VS Code Dev Containers](#vs-code-dev-containers)
-  * [Local environment](#local-environment)
-* [Running the Python examples](#running-the-python-examples)
-* [Guidance](#guidance)
-  * [Costs](#costs)
-  * [Security guidelines](#security-guidelines)
-* [Resources](#resources)
+Together these agents can perform most of the services that any business would need to improve their online presence, attract customers, and drive growth. These include:
 
-## Getting started
+Search Engine Optimization (SEO) helps businesses rank higher in search engine results through keyword research, link building, and on-page optimization. This drives organic traffic and improves search rankings for long-term success.
 
-You have a few options for getting started with this repository.
-The quickest way to get started is GitHub Codespaces, since it will setup everything for you, but you can also [set it up locally](#local-environment).
+Social Media Marketing involves creating and managing campaigns across platforms like Facebook, Instagram, and LinkedIn. Agencies develop content calendars, run paid social campaigns, and track engagement metrics to build brand awareness.
 
-### GitHub Codespaces
+Pay-Per-Click (PPC) Advertising allows businesses to run targeted ads on search engines and other platforms, paying only when users click on their advertisements.
 
-You can run this repository virtually by using GitHub Codespaces. The button will open a web-based VS Code instance in your browser:
+Content Marketing focuses on creating valuable content that attracts and engages target audiences, including blog posts, videos, and other media that drive traffic and conversions.
 
-1. Open the repository (this may take several minutes):
+Email Marketing remains one of the highest ROI digital channels, with agencies designing campaigns to nurture leads and maintain customer relationships.
 
-    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure-Samples/python-ai-agent-frameworks-demos)
+Brand Development helps products establish distinct identities in customers' minds through consistent messaging across all digital platforms.
 
-2. Open a terminal window
-3. Continue with the steps to run the examples
+Lead Generation identifies ideal target audiences and creates magnets to attract potential customers to the business.
 
-### VS Code Dev Containers
+Mobile Marketing reaches consumers through platforms like WhatsApp, SMS, mobile apps, and other mobile-specific channels.
 
-A related option is VS Code Dev Containers, which will open the project in your local VS Code using the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers):
+Analytics and Reporting implements comprehensive tracking systems to monitor campaign performance, understand user behavior, and make data-driven adjustments.
 
-1. Start Docker Desktop (install it if not already installed)
-2. Open the project:
+"Analyze my website and suggest specific on-page and off-page optimizations that will help me rank higher for the keyword 'dog food for puppies' in san francisco."
 
-    [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Azure-Samples/python-ai-agent-frameworks-demos)
 
-3. In the VS Code window that opens, once the project files show up (this may take several minutes), open a terminal window.
-4. Continue with the steps to run the examples
+This Agent hackathon entry is an advanced agent group chat that utilizes 
+SEO, SEM, CSR, and SDR Chat Completion Agents to collaborate on the core aspects of digital marketing that any business would need to succeed today.
 
-### Local environment
+Just a few years ago, you would need an entire team of people and a huge budget to perform all the different tasks that these agents can perform.
+Now all you need is a team of one. 
 
-1. Make sure the following tools are installed:
+The SEO agent performs Search Engine Optimization Tasks.
+The SEM agent performs Search Engine Marketing Tasks.
+The CSR agent is a Customer Sales Representative.
+The SDR agent is a Sales Development Representative.
 
-    * [Python 3.10+](https://www.python.org/downloads/)
-    * Git
+Together these agents can perform most of the services that any business would need to improve their online presence, attract customers, and drive growth. These include:
 
-2. Clone the repository:
+Search Engine Optimization (SEO) helps businesses rank higher in search engine results through keyword research, link building, and on-page optimization. This drives organic traffic and improves search rankings for long-term success.
 
-    ```shell
-    git clone https://github.com/Azure-Samples/python-ai-agent-frameworks-demos
-    cd python-ai-agents-demos
-    ```
+Social Media Marketing involves creating and managing campaigns across platforms like Facebook, Instagram, and LinkedIn. Agencies develop content calendars, run paid social campaigns, and track engagement metrics to build brand awareness.
 
-3. Set up a virtual environment:
+Pay-Per-Click (PPC) Advertising allows businesses to run targeted ads on search engines and other platforms, paying only when users click on their advertisements.
 
-    ```shell
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-    ```
+Content Marketing focuses on creating valuable content that attracts and engages target audiences, including blog posts, videos, and other media that drive traffic and conversions.
 
-4. Install the requirements:
+Email Marketing remains one of the highest ROI digital channels, with agencies designing campaigns to nurture leads and maintain customer relationships.
 
-    ```shell
-    pip install -r requirements.txt
-    ```
+Brand Development helps products establish distinct identities in customers' minds through consistent messaging across all digital platforms.
 
-## Running the Python examples
+Lead Generation identifies ideal target audiences and creates magnets to attract potential customers to the business.
 
-You can run the examples in this repository by executing the scripts in the `examples` directory. Each script demonstrates a different AI agent pattern or framework.
+Mobile Marketing reaches consumers through platforms like WhatsApp, SMS, mobile apps, and other mobile-specific channels.
 
-| Example | Description |
-| ------- | ----------- |
-| autogen_basic.py | Uses AutoGen to build a single agent. |
-| autogen_tools.py | Uses AutoGen to build a single agent with tools. |
-| autogen_magenticone.py | Uses AutoGen with the MagenticOne orchestrator agent for travel planning. |
-| autogen_swarm.py | Uses AutoGen with the Swarm orchestrator agent for flight refunding requests. |
-| langgraph.py | Uses LangGraph to build an agent with a StateGraph to play songs. |
-| llamaindex.py | Uses LlamaIndex to build a ReAct agent for RAG on multiple indexes. |
-| openai_agents_basic.py | Uses the OpenAI Agents framework to build a single agent. |
-| openai_agents.py | Uses the OpenAI Agents framework to handoff between several agents with tools. |
-| openai_functioncalling.py | Uses OpenAI Function Calling to call functions based on LLM output. |
-| pydanticai.py | Uses PydanticAI to build a two-agent sequential workflow for flight planning. |
-| semantickernel.py | Uses Semantic Kernel to build a writer/editor two-agent workflow. |
-| smolagents_codeagent.py | Uses SmolAgents to build a question-answering agent that can search the web and run code. |
-
-## Configuring GitHub Models
-
-If you open this repository in GitHub Codespaces, you can run the scripts for free using GitHub Models without any additional steps, as your `GITHUB_TOKEN` is already configured in the Codespaces environment.
-
-If you want to run the scripts locally, you need to set up the `GITHUB_TOKEN` environment variable with a GitHub personal access token (PAT). You can create a PAT by following these steps:
-
-1. Go to your GitHub account settings.
-2. Click on "Developer settings" in the left sidebar.
-3. Click on "Personal access tokens" in the left sidebar.
-4. Click on "Tokens (classic)" or "Fine-grained tokens" depending on your preference.
-5. Click on "Generate new token".
-6. Give your token a name and select the scopes you want to grant. For this project, you don't need any specific scopes.
-7. Click on "Generate token".
-8. Copy the generated token.
-9. Set the `GITHUB_TOKEN` environment variable in your terminal or IDE:
-
-    ```shell
-    export GITHUB_TOKEN=your_personal_access_token
-    ```
-
-10. Optionally, you can use a model other than "gpt-4o" by setting the `GITHUB_MODEL` environment variable. Use a model that supports function calling, such as: `gpt-4o`, `gpt-4o-mini`, `o3-mini`, `AI21-Jamba-1.5-Large`, `AI21-Jamba-1.5-Mini`, `Codestral-2501`, `Cohere-command-r`, `Ministral-3B`, `Mistral-Large-2411`, `Mistral-Nemo`, `Mistral-small`
-
-## Provisioning Azure AI resources
-
-You can run all examples in this repository using GitHub Models. If you want to run the examples using models from Azure OpenAI instead, you need to provision the Azure AI resources, which will incur costs.
-
-This project includes infrastructure as code (IaC) to provision Azure OpenAI deployments of "gpt-4o" and "text-embedding-3-large". The IaC is defined in the `infra` directory and uses the Azure Developer CLI to provision the resources.
-
-1. Make sure the [Azure Developer CLI (azd)](https://aka.ms/install-azd) is installed.
-
-2. Login to Azure:
-
-    ```shell
-    azd auth login
-    ```
-
-    For GitHub Codespaces users, if the previous command fails, try:
-
-   ```shell
-    azd auth login --use-device-code
-    ```
-
-3. Provision the OpenAI account:
-
-    ```shell
-    azd provision
-    ```
-
-    It will prompt you to provide an `azd` environment name (like "agents-demos"), select a subscription from your Azure account, and select a location. Then it will provision the resources in your account.
-
-4. Once the resources are provisioned, you should now see a local `.env` file with all the environment variables needed to run the scripts.
-5. To delete the resources, run:
-
-    ```shell
-    azd down
-    ```
-
-## Resources
-
-* [AutoGen Documentation](https://microsoft.github.io/autogen/)
-* [LangGraph Documentation](https://langchain-ai.github.io/langgraph/tutorials/introduction/)
-* [LlamaIndex Documentation](https://docs.llamaindex.ai/en/latest/)
-* [OpenAI Agents Documentation](https://openai.github.io/openai-agents-python/)
-* [OpenAI Function Calling Documentation](https://platform.openai.com/docs/guides/function-calling?api-mode=chat)
-* [PydanticAI Documentation](https://ai.pydantic.dev/multi-agent-applications/)
-* [Semantic Kernel Documentation](https://learn.microsoft.com/semantic-kernel/overview/)
-* [SmolAgents Documentation](https://huggingface.co/docs/smolagents/index)
+Analytics and Reporting implements comprehensive tracking systems to monitor campaign performance, understand user behavior, and make data-driven adjustments.
